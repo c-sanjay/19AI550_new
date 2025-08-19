@@ -23,26 +23,61 @@ To write a program to simulate the process of seek behavior in Unity without Nav
 13. Stop the program
     
 ### Program:
-```c
+```
+using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 
-public class Script2 : MonoBehaviour
+public class seekScript : MonoBehaviour
 {
-    public Transform target;   
-    public float speed = 5f;   
+    // Start is called before the first frame update
+    public Transform target;  // The object to seek
+    public float speed = 5f;  // Movement speed
     void Start()
     {
-
+        
     }
-    
+
+    // Update is called once per frame
     void Update()
     {
-        if (target == null) return;  
-        Vector3 direction = (transform.position - target.position).normalized;
+        if (target == null) return;  // Exit if no target is assigned
+
+        // Calculate the desired direction
+        Vector3 direction = (target.position - transform.position).normalized;
+
+        // Move the object towards the target
         transform.position += direction * speed * Time.deltaTime;
     }
 }
+```
+```
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
 
+public class fleeScript : MonoBehaviour
+{
+    // Start is called before the first frame update
+    public Transform target;  // The object to seek
+    public float speed = 5f;  // Movement speed
+    void Start()
+    {
+        
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        if (target == null) return;  // Exit if no target is assigned
+
+        // Calculate the desired direction
+        Vector3 direction = (transform.position-target.position).normalized;
+
+        // Move the object towards the target
+        transform.position += direction * speed * Time.deltaTime;
+    }
+}
 ```
 ### Output:
 
