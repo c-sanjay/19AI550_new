@@ -1,6 +1,8 @@
 # Ex.No: 9  Implementation of Simple Reinforcement Learning 
-### DATE:                                                                            
-### REGISTER NUMBER : 
+### DATE: 14.10.2025                                                                           
+### REGISTER NUMBER : 212223240150
+## DEVELOPED BY: SANJAY C
+
 ### AIM: 
 To write a program to implement  Reinforcement learning  in Unity 
 ### Algorithm:
@@ -109,6 +111,7 @@ behaviors:
 
 
 
+<img width="811" height="831" alt="image" src="https://github.com/user-attachments/assets/7af33de9-c9e7-422f-ac24-b14046142843" />
 
 
 
