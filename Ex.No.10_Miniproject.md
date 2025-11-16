@@ -1,4 +1,4 @@
-# Ex.No: 10  Implementation of 2D/3D game -------------------
+# Ex.No: 10  Implementation of 2D space shooter game
 ### DATE : 11/11/2025                                                                           
 ### REGISTER NUMBER : 212223240150
 ### AIM: 
