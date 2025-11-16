@@ -4,7 +4,6 @@
 ### AIM: 
 To develop a 2D space shooter game in Unity where the rocket moves only up and down, and enemies spawn independently.
 ### Algorithm:
-```
 
 1. **Start the game** and load the main scene.
 2. **Initialize player rocket** at a fixed X-position on the left side of the screen.
@@ -22,9 +21,9 @@ To develop a 2D space shooter game in Unity where the rocket moves only up and d
 14. **Check collision** between rocket bullets & enemies → destroy enemy.
 15. **Repeat spawning and movement** until the game ends or player loses all lives.
 
-```  
+
 ### Program:
-####🧩 1️⃣ PlayerController.cs
+#### 🧩 1️⃣ PlayerController.cs
 ```cs
 using UnityEngine;
 
